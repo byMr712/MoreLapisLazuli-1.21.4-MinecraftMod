@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "morelapis:block/lapis_log"
+    },
+    "axis=z": {
+      "model": "morelapis:block/lapis_log_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "morelapis:block/lapis_log_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

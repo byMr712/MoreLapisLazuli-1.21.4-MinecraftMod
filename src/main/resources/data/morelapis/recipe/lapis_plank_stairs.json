@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": "morelapis:lapis_planks"
+  },
+  "result": {
+    "id": "morelapis:lapis_plank_stairs",
+    "count": 4
+  }
+}

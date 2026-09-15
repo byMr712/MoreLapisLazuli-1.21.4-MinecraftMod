@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " B ",
+    "BLB",
+    " B "
+  ],
+  "key": {
+    "B": "morelapis:lapis_brick",
+    "L": "minecraft:lapis_block"
+  },
+  "result": {
+    "id": "morelapis:lapis_log",
+    "count": 2
+  }
+}

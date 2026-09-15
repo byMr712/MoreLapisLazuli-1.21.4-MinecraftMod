@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "morelapis:block/lapis_brick_lamp"
+    },
+    "axis=z": {
+      "model": "morelapis:block/lapis_brick_lamp_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "morelapis:block/lapis_brick_lamp_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

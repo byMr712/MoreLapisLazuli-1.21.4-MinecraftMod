@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "W": "morelapis:lapis_planks",
+    "#": "minecraft:stick"
+  },
+  "result": {
+    "id": "morelapis:lapis_plank_fence_gate",
+    "count": 1
+  }
+}

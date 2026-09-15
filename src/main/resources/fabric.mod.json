@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "morelapis",
+  "version": "${version}",
+  "name": "More Lapis Lazuli",
+  "description": "Adds more uses for lapis lazuli!",
+  "authors": [
+    "BeckATI",
+    "byMr712"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/more-lapis-lazuli",
+    "sources": "https://github.com/beckadamtheinventor/more-lapis-lazuli"
+  },
+  "license": "GPL-3.0-or-later",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.beckati.morelapis.MoreLapis"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

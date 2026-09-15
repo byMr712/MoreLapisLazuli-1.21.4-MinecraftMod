@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "morelapis:lapis_planks",
+  "result": {
+    "id": "morelapis:lapis_plank_slab",
+    "count": 2
+  }
+}

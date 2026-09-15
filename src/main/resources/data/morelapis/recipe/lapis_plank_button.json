@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "morelapis:lapis_planks"
+  ],
+  "result": {
+    "id": "morelapis:lapis_plank_button",
+    "count": 1
+  }
+}

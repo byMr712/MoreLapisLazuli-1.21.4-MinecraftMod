@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "morelapis:lapis_log",
+    "morelapis:lapis_planks",
+    "morelapis:lapis_plank_stairs",
+    "morelapis:lapis_plank_slab",
+    "morelapis:lapis_plank_fence",
+    "morelapis:lapis_plank_fence_gate",
+    "morelapis:lapis_plank_button",
+    "morelapis:lapis_plank_pressure_plate"
+  ]
+}

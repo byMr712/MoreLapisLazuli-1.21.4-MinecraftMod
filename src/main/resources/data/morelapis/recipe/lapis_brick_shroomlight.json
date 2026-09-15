@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " L ",
+    "LSL",
+    " L "
+  ],
+  "key": {
+    "L": "morelapis:lapis_brick",
+    "S": "minecraft:shroomlight"
+  },
+  "result": {
+    "id": "morelapis:lapis_brick_shroomlight",
+    "count": 1
+  }
+}

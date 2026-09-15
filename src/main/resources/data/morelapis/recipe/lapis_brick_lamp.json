@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " L ",
+    "LGL",
+    " L "
+  ],
+  "key": {
+    "L": "morelapis:lapis_brick",
+    "G": "minecraft:glowstone_dust"
+  },
+  "result": {
+    "id": "morelapis:lapis_brick_lamp",
+    "count": 1
+  }
+}

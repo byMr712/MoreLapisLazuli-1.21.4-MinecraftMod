@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " L ",
+    "LAL",
+    " L "
+  ],
+  "key": {
+    "L": "minecraft:lapis_lazuli",
+    "A": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "id": "morelapis:lapis_coated_amethyst",
+    "count": 1
+  }
+}

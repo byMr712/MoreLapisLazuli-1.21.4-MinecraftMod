@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "morelapis:lapis_brick_slab",
+    "morelapis:smooth_lapis_brick_slab",
+    "morelapis:lapis_plank_slab"
+  ]
+}

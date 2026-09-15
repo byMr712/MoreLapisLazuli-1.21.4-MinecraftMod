@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "ingredient": "morelapis:lapis_planks",
+  "result": {
+    "id": "morelapis:lapis_leaves",
+    "count": 1
+  },
+  "experience": 0.5,
+  "cookingtime": 100
+}

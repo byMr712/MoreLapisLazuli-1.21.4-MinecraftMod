@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morelapis:block/smooth_lapis_brick_slab"
+    },
+    "type=top": {
+      "model": "morelapis:block/smooth_lapis_brick_slab_top"
+    },
+    "type=double": {
+      "model": "morelapis:block/smooth_lapis_bricks"
+    }
+  }
+}

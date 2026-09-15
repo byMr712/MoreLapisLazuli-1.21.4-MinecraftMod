@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": "morelapis:lapis_bricks"
+  },
+  "result": {
+    "id": "morelapis:lapis_brick_slab",
+    "count": 6
+  }
+}

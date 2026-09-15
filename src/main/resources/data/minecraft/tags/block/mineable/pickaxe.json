@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "morelapis:lapis_brick_lamp",
+    "morelapis:lapis_brick_shroomlight",
+    "morelapis:lapis_bricks",
+    "morelapis:lapis_brick_stairs",
+    "morelapis:lapis_brick_slab",
+    "morelapis:smooth_lapis_bricks",
+    "morelapis:smooth_lapis_brick_stairs",
+    "morelapis:smooth_lapis_brick_slab"
+  ]
+}

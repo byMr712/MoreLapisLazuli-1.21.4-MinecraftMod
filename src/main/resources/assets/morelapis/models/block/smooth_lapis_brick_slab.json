@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "morelapis:block/smooth_lapis_bricks",
+    "top": "morelapis:block/smooth_lapis_bricks",
+    "side": "morelapis:block/smooth_lapis_bricks",
+    "particle": "morelapis:block/smooth_lapis_bricks"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "s ",
+    "s "
+  ],
+  "key": {
+    "#": "morelapis:crystaline_lapis",
+    "s": "minecraft:stick"
+  },
+  "result": {
+    "id": "morelapis:crystaline_lapis_hoe",
+    "count": 1
+  }
+}

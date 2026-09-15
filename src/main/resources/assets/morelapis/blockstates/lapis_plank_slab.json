@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morelapis:block/lapis_plank_slab"
+    },
+    "type=top": {
+      "model": "morelapis:block/lapis_plank_slab_top"
+    },
+    "type=double": {
+      "model": "morelapis:block/lapis_planks"
+    }
+  }
+}

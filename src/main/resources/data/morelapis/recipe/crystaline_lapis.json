@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": "morelapis:lapis_coated_amethyst",
+  "result": {
+    "id": "morelapis:crystaline_lapis",
+    "count": 1
+  },
+  "experience": 5.0,
+  "cookingtime": 100
+}

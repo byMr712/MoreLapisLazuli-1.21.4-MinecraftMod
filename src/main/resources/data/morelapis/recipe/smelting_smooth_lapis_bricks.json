@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "morelapis:lapis_bricks",
+  "result": {
+    "id": "morelapis:smooth_lapis_bricks",
+    "count": 1
+  },
+  "experience": 0.5,
+  "cookingtime": 200
+}

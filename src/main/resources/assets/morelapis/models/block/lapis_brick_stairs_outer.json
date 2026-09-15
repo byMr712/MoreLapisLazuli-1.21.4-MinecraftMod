@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "morelapis:block/lapis_bricks",
+    "top": "morelapis:block/lapis_bricks",
+    "side": "morelapis:block/lapis_bricks",
+    "particle": "morelapis:block/lapis_bricks"
+  }
+}
