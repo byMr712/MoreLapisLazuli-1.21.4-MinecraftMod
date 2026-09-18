@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "category": "misc",
+  "category": "blocks",
   "ingredient": "morelapis:lapis_bricks",
   "result": {
     "id": "morelapis:smooth_lapis_bricks",

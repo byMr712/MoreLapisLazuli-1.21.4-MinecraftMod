@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "morelapis:crystaline_lapis_sword",
+    "morelapis:crystaline_lapis_axe",
+    "morelapis:crystaline_lapis_pickaxe",
+    "morelapis:crystaline_lapis_shovel",
+    "morelapis:crystaline_lapis_hoe"
+  ]
+}

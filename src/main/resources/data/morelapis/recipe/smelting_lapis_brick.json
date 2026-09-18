@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "category": "misc",
+  "category": "blocks",
   "ingredient": "minecraft:lapis_lazuli",
   "result": {
     "id": "morelapis:lapis_brick",

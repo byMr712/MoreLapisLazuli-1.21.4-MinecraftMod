@@ -6,6 +6,9 @@ import com.beckati.morelapis.item.ModToolMaterials;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.registry.CompostingChanceRegistry;
+import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
+import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
@@ -65,7 +68,35 @@ public class MoreLapis implements ModInitializer {
         ModItems.registerItems();
         ModBlocks.registerBlocks();
 
+        registerVanillaInteractions();
         registerVanillaItemGroups();
+    }
+
+    private void registerVanillaInteractions() {
+        FuelRegistryEvents.BUILD.register((builder, context) -> {
+            builder.add(ModBlocks.LAPIS_LOG, 300);
+            builder.add(ModBlocks.LAPIS_PLANKS, 300);
+            builder.add(ModBlocks.LAPIS_PLANK_STAIRS, 300);
+            builder.add(ModBlocks.LAPIS_PLANK_SLAB, 150);
+            builder.add(ModBlocks.LAPIS_PLANK_FENCE, 300);
+            builder.add(ModBlocks.LAPIS_PLANK_FENCE_GATE, 300);
+            builder.add(ModBlocks.LAPIS_PLANK_PRESSURE_PLATE, 300);
+            builder.add(ModBlocks.LAPIS_PLANK_BUTTON, 100);
+            builder.add(ModBlocks.LAPIS_SAPLING, 100);
+        });
+
+        CompostingChanceRegistry.INSTANCE.add(ModBlocks.LAPIS_LEAVES, 0.3f);
+        CompostingChanceRegistry.INSTANCE.add(ModBlocks.LAPIS_SAPLING, 0.3f);
+
+        FlammableBlockRegistry flammable = FlammableBlockRegistry.getDefaultInstance();
+        flammable.add(ModBlocks.LAPIS_LOG, 5, 5);
+        flammable.add(ModBlocks.LAPIS_PLANKS, 5, 20);
+        flammable.add(ModBlocks.LAPIS_PLANK_STAIRS, 5, 20);
+        flammable.add(ModBlocks.LAPIS_PLANK_SLAB, 5, 20);
+        flammable.add(ModBlocks.LAPIS_PLANK_FENCE, 5, 20);
+        flammable.add(ModBlocks.LAPIS_PLANK_FENCE_GATE, 5, 20);
+        flammable.add(ModBlocks.LAPIS_LEAVES, 30, 60);
+        flammable.add(ModBlocks.LAPIS_SAPLING, 60, 60);
     }
 
     private void registerVanillaItemGroups() {
